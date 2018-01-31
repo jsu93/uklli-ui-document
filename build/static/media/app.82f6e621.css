@@ -1,0 +1,8 @@
+body {
+  background-color: #F7F9F9;
+  user-select: text; }
+
+* {
+  padding: 0px;
+  margin: 0px;
+  user-select: text; }

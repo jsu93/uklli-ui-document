@@ -1,0 +1,145 @@
+.container-main {
+  width: 100%;
+  padding-bottom: 100px;
+  user-select: text; }
+  .container-main .container-header {
+    background-color: #449bea;
+    padding: 30px;
+    color: #fff;
+    padding-left: 100px; }
+    .container-main .container-header .header-title {
+      font-size: 42px; }
+    .container-main .container-header .header-content {
+      font-size: 20px;
+      font-weight: lighter;
+      padding-top: 10px; }
+  .container-main .container-context {
+    padding-top: 50px;
+    width: 100%;
+    padding-left: 100px;
+    display: inline-flex;
+    flex-wrap: nowrap; }
+    .container-main .container-context .item-component {
+      height: 100px;
+      width: 880px;
+      background-color: red; }
+    .container-main .container-context .container-items {
+      width: 76%; }
+      .container-main .container-context .container-items a {
+        text-decoration: none; }
+      .container-main .container-context .container-items .doc-item {
+        padding: 20px;
+        background-color: #fff;
+        margin-top: 20px;
+        border-radius: 6px;
+        box-shadow: 0px 15px 10px -16px #8c9190; }
+        .container-main .container-context .container-items .doc-item .item-title {
+          font-size: 36px;
+          border-bottom: 1px solid #D7CCC8;
+          color: #449bea; }
+        .container-main .container-context .container-items .doc-item .item-sectitle {
+          font-size: 26px;
+          padding-top: 20px; }
+        .container-main .container-context .container-items .doc-item .item-thititle {
+          font-size: 20px;
+          padding-top: 20px; }
+        .container-main .container-context .container-items .doc-item .item-content .hljs {
+          background-color: #F8F9F9;
+          border-radius: 6px; }
+        .container-main .container-context .container-items .doc-item .item-content .item-describe {
+          color: #808B96;
+          padding-top: 20px;
+          font-size: 16px; }
+          .container-main .container-context .container-items .doc-item .item-content .item-describe .item-fourtitle {
+            color: #808B96; }
+        .container-main .container-context .container-items .doc-item .item-content .item-border {
+          border: 1px solid #D7CCC8;
+          padding: 20px; }
+          .container-main .container-context .container-items .doc-item .item-content .item-border .btn {
+            margin: 10px;
+            background-color: #7375e5;
+            color: #fff; }
+          .container-main .container-context .container-items .doc-item .item-content .item-border .item-show {
+            height: 30px;
+            background-color: #F0F0F0;
+            margin-bottom: 10px;
+            padding: 8px; }
+          .container-main .container-context .container-items .doc-item .item-content .item-border .item-bordescribe {
+            padding: 8px; }
+          .container-main .container-context .container-items .doc-item .item-content .item-border .item-popover {
+            width: 100px;
+            position: relative; }
+          .container-main .container-context .container-items .doc-item .item-content .item-border .multiple-helper {
+            width: 100px; }
+          .container-main .container-context .container-items .doc-item .item-content .item-border .btn-link {
+            position: relative; }
+          .container-main .container-context .container-items .doc-item .item-content .item-border .countdown {
+            padding-bottom: 20px; }
+            .container-main .container-context .container-items .doc-item .item-content .item-border .countdown .text {
+              position: relative;
+              top: -10px; }
+          .container-main .container-context .container-items .doc-item .item-content .item-border .v-modal-container {
+            position: relative;
+            padding-bottom: 20px; }
+          .container-main .container-context .container-items .doc-item .item-content .item-border .carousel {
+            width: 300px;
+            height: 150px; }
+            .container-main .container-context .container-items .doc-item .item-content .item-border .carousel .item-component {
+              height: 150px;
+              width: 300px;
+              background-color: #EBF5FB; }
+          .container-main .container-context .container-items .doc-item .item-content .item-border .switch-btn-group {
+            width: 150px; }
+          .container-main .container-context .container-items .doc-item .item-content .item-border .tab-group {
+            height: 100px; }
+    .container-main .container-context .container-bookmark {
+      transition: 0.5s;
+      padding: 20px;
+      width: 260px;
+      position: fixed;
+      left: 80%;
+      top: 180px;
+      height: auto; }
+      .container-main .container-context .container-bookmark .mark-item {
+        padding-top: 4px; }
+    .container-main .container-context .container-bookmark.container-bookmark2 {
+      top: 30px; }
+
+#svg {
+  position: relative;
+  top: -90px;
+  left: -20px; }
+  #svg svg {
+    display: block; }
+    #svg svg .circle-front {
+      box-shadow: inset 0 0 1em black;
+      stroke: #4FC3F7;
+      stroke-width: 12px;
+      transition: all 0.5s linear; }
+    #svg svg text {
+      color: #fff;
+      font-size: 16px; }
+  #svg .btn-control {
+    font-size: 16px;
+    background-color: #fff;
+    display: inline-block;
+    padding: 6px;
+    border: 1px solid #4FC3F7;
+    color: #4FC3F7; }
+  #svg .control-continer {
+    margin-left: 30px;
+    margin-top: -30px;
+    cursor: pointer; }
+    #svg .control-continer .add {
+      border-top-right-radius: 6px;
+      border-bottom-right-radius: 6px;
+      border-left: 0px; }
+    #svg .control-continer .minus {
+      border-top-left-radius: 6px;
+      border-bottom-left-radius: 6px; }
+    #svg .control-continer .add:hover {
+      background-color: #4FC3F7;
+      color: #fff; }
+    #svg .control-continer .minus:hover {
+      background-color: #4FC3F7;
+      color: #fff; }
