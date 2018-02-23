@@ -3,7 +3,7 @@ import propTypes from 'prop-types';
 import ReactDOM from 'react-dom';
 import ComponentsGroup from "./componentGroup";
 import './scss/app.css';
-import registerServiceWorker from './registerServiceWorker';
+// import registerServiceWorker from './registerServiceWorker';
 import 'ukelli-ui/src/style/index.scss';
 //import './scss/comsupply.scss';
 
@@ -14,4 +14,4 @@ ReactDOM.render(
 	document.getElementById('root')
 	);
 
-registerServiceWorker();
+// registerServiceWorker();
