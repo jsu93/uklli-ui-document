@@ -40,7 +40,7 @@ import Modal from './components/modal.js';
 import StateButton from './components/button.js';
 import RecordItemsHelper from './components/recordItemsHelper.js';
 import IconInput from './components/icon.input.js';
-import { BrowserRouter, Link, Route,} from 'react-router-dom';
+import { HashRouter, Link, Route,} from 'react-router-dom';
 import './scss/components.scss';
 var Prism = require('prismjs');
 export default class ComponentsGroup extends Component {
@@ -96,7 +96,7 @@ export default class ComponentsGroup extends Component {
         <div className="container-context">
           <div className="container-items">
             <div className="doc-item">
-              <BrowserRouter>
+              <HashRouter>
                 <div>
                   <BookMark />
                   <Route path='/' exact component={Build}/>
@@ -135,7 +135,7 @@ export default class ComponentsGroup extends Component {
                   <Route path='/modal' component={Modal}/>
                   <Route path='/recordItemsHelper' component={RecordItemsHelper}/>
                 </div>
-              </BrowserRouter>
+              </HashRouter>
             </div>
          </div>
 
